@@ -1,0 +1,61 @@
+# 📂 Projeto: Organizador de Arquivos da Pasta "Downloads"
+
+Este é um script em **Python** que automatiza a organização dos arquivos da pasta **Downloads**, movendo-os automaticamente para subpastas de acordo com a extensão dos arquivos.
+
+---
+
+## ✅ Funcionalidades
+
+- Move arquivos conforme o tipo:
+  - `.pdf`, `.docx`, `.txt` → **Documentos**
+  - `.jpg`, `.jpeg`, `.png`, `.gif` → **Imagens**
+  - `.mp4`, `.mov`, `.avi` → **Vídeos**
+  - `.zip`, `.rar`, `.7z` → **Compactados**
+  - Outros arquivos → **Outros**
+
+- Cria automaticamente as pastas de destino, caso não existam.
+- Mantém a pasta Downloads organizada.
+
+---
+
+## 🚀 Como Usar
+
+1. **Pré-requisitos:**
+   - Python 3.x instalado na sua máquina.
+   
+2. **Clone ou copie o código do projeto.**
+
+3. **Execute o script:**
+
+```bash
+python organizador.py
+
+
+⚙️ Estrutura das Pastas
+
+Downloads/
+│
+├── Documentos/
+├── Imagens/
+├── Vídeos/
+├── Compactados/
+└── Outros/
+
+💡 Possíveis Melhorias
+✅ Agendar a execução automática (usando schedule ou cron).
+
+✅ Notificações ao usuário após a organização.
+
+✅ Exclusão de arquivos antigos.
+
+✅ Configuração de múltiplas pastas além do Downloads.
+
+🛠️ Tecnologias Utilizadas
+
+Python (padrão)
+Bibliotecas: os, shutil
+
+👨‍💻 Autor
+Feito por [Eric Cleyton]
+
+Contato: [https://www.linkedin.com/in/eric-nascimento/]
